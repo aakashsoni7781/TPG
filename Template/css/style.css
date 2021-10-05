@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(228, 228, 241);
+    margin-left: 50px;
+}
+
+.nav-left {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 5%;
+    margin-top: 25px;
+    height: 50px;
+    display: flex;
+}
+
+nav .logo {
+    justify-content: space-between;
+    align-items: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+nav .header {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 120%;
+    height: 100%;
+    display: flex;
+}
+
+nav .header li {
+    list-style: none;
+}
+
+nav .header a {
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* .burger div {
+    background-color: rgb(211, 13, 13);
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+}
+*/
+
+.main {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#p1 {
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-bottom: 7%;
+    font-weight: 750;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#p2 {
+    padding-left: 0px;
+    padding-bottom: 16px;
+    color: grey;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.picture {
+    margin-top: 25px;
+    max-width: 100%;
+    height: 520px;
+}
+
+#btn {
+    width: 20%;
+    height: 30px;
+    margin-left: 0%;
+    background-color: #4949f3;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border-color: blue;
+    overflow: hidden;
+}
+
+#btn:hover {
+    background-color: rgb(118, 93, 207);
+    border-color: rgb(60, 47, 173);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box {
+    list-style: none;
+    float: left;
+    padding-left: 8%;
+}
+
+.box li {
+    margin-top: 5%;
+    display: inline-block;
+    margin: 20px;
+}
+
+#p3 {
+    padding-top: 6%;
+    padding-left: 10%;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+.pic {
+    width: 105%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.a5 {
+    margin-top: 2%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.a6 {
+    width: 100%;
+}
+
+#p4 {
+    padding-top: 4%;
+    margin-left: 20%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#p5 {
+    padding-top: 4%;
+    font-size: 18px;
+    margin-right: 20%;
+    margin-top: 15px;
+    color: grey;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.c .c1 {
+    background: white;
+    margin: 5%;
+    margin-bottom: 20px;
+    width: 15%;
+    padding: 2%;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+
+.c .c1 h1 {
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.c .c1 :hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px 2px rgba(49, 40, 40, 0.6);
+}
+
+.c .c1 p {
+    padding: 5px;
+}
